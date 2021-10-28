@@ -1,0 +1,31 @@
+{
+  "name": "13-share-places-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenmrdn/sharePlaces_typeScript.git"
+  },
+  "author": "Karen M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karenmrdn/sharePlaces_typeScript/issues"
+  },
+  "homepage": "https://github.com/karenmrdn/sharePlaces_typeScript#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "dotenv-webpack": "^7.0.3",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
