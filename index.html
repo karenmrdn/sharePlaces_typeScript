@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="map" id="map">
-      <p>Please enter an address!</p>
+      <p>No address provided yet</p>
     </div>
     <form>
       <input type="text" id="address" />
@@ -17,5 +17,11 @@
     </form>
 
     <script src="dist/bundle.js" defer></script>
+    <!-- https://stackoverflow.com/questions/49375867/how-do-you-reference-a-process-env-variable-in-html-script-src-react/56984657 -->
+    <!-- <script async src="<%= htmlWebpackPlugin.options.apiUrl %>"></script> -->
+    <!-- <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"
+    ></script> -->
   </body>
 </html>
